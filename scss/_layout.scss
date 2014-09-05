@@ -1,0 +1,70 @@
+body {
+	background: -webkit-linear-gradient($rapture, white); 
+  	background: -o-linear-gradient($rapture, white); 
+  	background: -moz-linear-gradient($rapture, white); 
+  	background: linear-gradient($rapture, white); 
+  	background-repeat: no-repeat;
+  	height: 100%;
+}
+#headerimg {
+	width: 100%;
+	float: right;
+}
+header {
+
+	height: 200px; 
+}
+
+.tweetcard {
+	background: white;
+	border-radius: 1em;
+	display:none;
+}
+#container{
+	background:none;
+}
+.timecolumn {
+	width: 10%;
+	float: right;
+}
+.eggicon {
+	float:left;
+	@include animation(eggWiggle, 3s, linear, 0, infinite, normal);
+}
+button {
+	background-color: transparent;
+	-webkit-appearance: none;
+
+}
+div.modal-content {
+	border: solid .4em $pink;
+}
+.doom{
+	background-color: $pink;
+	border-color: #ff1f21;
+	&:hover{
+		background-color: #ff1f21;
+		border-color: red;
+	}
+}
+.nothing{
+	background-color: #666;
+	border-color: #333;
+	&:hover{
+		background-color:#333;
+		border-color: black;
+	}
+}
+.tweetPic{
+	width:100%;
+}
+ul{
+	list-style-type:none;
+}
+a{
+	color: $pink;
+	&:hover{
+		text-decoration: none;
+		color: #ff1f21;
+	}
+}

@@ -1,0 +1,272 @@
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400|Lobster+Two:400,700);
+/* line 1, ../scss/_type.scss */
+h1 {
+  font-family: "Lato", sans-serif;
+  font-weight: 300;
+  font-size: 5em;
+}
+
+/* line 6, ../scss/_type.scss */
+h2 {
+  font-family: "Lobster Two", cursive;
+  color: #ff5359;
+}
+
+/* line 10, ../scss/_type.scss */
+p {
+  font-family: "Lato", sans-serif;
+}
+
+/* line 14, ../scss/_type.scss */
+.userName {
+  font-size: 2em;
+  font-family: "Lato", sans-serif;
+  color: #ff5359;
+  margin-bottom: 0px;
+  margin-top: .6em;
+}
+
+/* line 23, ../scss/_type.scss */
+.screenName {
+  font-size: 1.6em;
+  font-family: "Lato", sans-serif;
+  color: #666;
+  margin-top: 1em;
+}
+
+@-webkit-keyframes eggWiggle {
+  /* line 2, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 5, ../scss/_animations.scss */
+  94% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  96% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 12, ../scss/_animations.scss */
+  98% {
+    -webkit-transform: rotate(10deg);
+  }
+
+  /* line 16, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-moz-keyframes eggWiggle {
+  /* line 2, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 5, ../scss/_animations.scss */
+  94% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  96% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 12, ../scss/_animations.scss */
+  98% {
+    -webkit-transform: rotate(10deg);
+  }
+
+  /* line 16, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-o-keyframes eggWiggle {
+  /* line 2, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 5, ../scss/_animations.scss */
+  94% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  96% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 12, ../scss/_animations.scss */
+  98% {
+    -webkit-transform: rotate(10deg);
+  }
+
+  /* line 16, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@-ms-keyframes eggWiggle {
+  /* line 2, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 5, ../scss/_animations.scss */
+  94% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  96% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 12, ../scss/_animations.scss */
+  98% {
+    -webkit-transform: rotate(10deg);
+  }
+
+  /* line 16, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+@keyframes eggWiggle {
+  /* line 2, ../scss/_animations.scss */
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 5, ../scss/_animations.scss */
+  94% {
+    -webkit-transform: rotate(0deg);
+  }
+
+  /* line 8, ../scss/_animations.scss */
+  96% {
+    -webkit-transform: rotate(-10deg);
+  }
+
+  /* line 12, ../scss/_animations.scss */
+  98% {
+    -webkit-transform: rotate(10deg);
+  }
+
+  /* line 16, ../scss/_animations.scss */
+  100% {
+    -webkit-transform: rotate(0deg);
+  }
+}
+
+/* line 1, ../scss/_layout.scss */
+body {
+  background: -webkit-linear-gradient(#ffe98d, white);
+  background: -o-linear-gradient(#ffe98d, white);
+  background: -moz-linear-gradient(#ffe98d, white);
+  background: linear-gradient(#ffe98d, #ffffff);
+  background-repeat: no-repeat;
+  height: 100%;
+}
+
+/* line 9, ../scss/_layout.scss */
+#headerimg {
+  width: 100%;
+  float: right;
+}
+
+/* line 13, ../scss/_layout.scss */
+header {
+  height: 200px;
+}
+
+/* line 18, ../scss/_layout.scss */
+.tweetcard {
+  background: white;
+  border-radius: 1em;
+  display: none;
+}
+
+/* line 23, ../scss/_layout.scss */
+#container {
+  background: none;
+}
+
+/* line 26, ../scss/_layout.scss */
+.timecolumn {
+  width: 10%;
+  float: right;
+}
+
+/* line 30, ../scss/_layout.scss */
+.eggicon {
+  float: left;
+  -webkit-animation: eggWiggle 3s linear 0 infinite normal;
+  -moz-animation: eggWiggle 3s linear 0 infinite normal;
+  -o-animation: eggWiggle 3s linear 0 infinite normal;
+  -ms-animation: eggWiggle 3s linear 0 infinite normal;
+  animation: eggWiggle 3s linear 0 infinite normal;
+}
+
+/* line 34, ../scss/_layout.scss */
+button {
+  background-color: transparent;
+  -webkit-appearance: none;
+}
+
+/* line 39, ../scss/_layout.scss */
+div.modal-content {
+  border: solid 0.4em #ff5359;
+}
+
+/* line 42, ../scss/_layout.scss */
+.doom {
+  background-color: #ff5359;
+  border-color: #ff1f21;
+}
+/* line 45, ../scss/_layout.scss */
+.doom:hover {
+  background-color: #ff1f21;
+  border-color: red;
+}
+
+/* line 50, ../scss/_layout.scss */
+.nothing {
+  background-color: #666;
+  border-color: #333;
+}
+/* line 53, ../scss/_layout.scss */
+.nothing:hover {
+  background-color: #333;
+  border-color: black;
+}
+
+/* line 58, ../scss/_layout.scss */
+.tweetPic {
+  width: 100%;
+}
+
+/* line 61, ../scss/_layout.scss */
+ul {
+  list-style-type: none;
+}
+
+/* line 64, ../scss/_layout.scss */
+a {
+  color: #ff5359;
+}
+/* line 66, ../scss/_layout.scss */
+a:hover {
+  text-decoration: none;
+  color: #ff1f21;
+}
